@@ -186,6 +186,8 @@ class Communicator {
         doc[entry.first] = entry.second;
     }
     serializeJson(doc, payload);
+
+    //sample json  {"aqi":1,"co2":449,"hummidity":32,"tempreture":29,"tvoc":46}
     Serial.print("\n");
     Serial.print(payload);
     Serial.print("\n");
