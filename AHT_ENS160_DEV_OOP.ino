@@ -156,8 +156,8 @@ public:
 
 class Communicator {
  private:
-  const char* ssid = "KQPV";
-  const char* password = "66642312";
+  const char* ssid = "";
+  const char* password = "";
 
   public:
   Communicator() {}
